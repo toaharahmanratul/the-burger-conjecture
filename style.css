@@ -4,6 +4,10 @@ body{
     margin: 0%;
     padding: 0%;
 }
+body p{
+    font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 .section-banner{
     display: flex;
     margin-bottom: 150px;
@@ -119,4 +123,24 @@ h2{
     margin-top: 0;
     margin-bottom: 45px;
     font-size: 13px;
+}
+footer{
+    height: 350px;
+    background-image:linear-gradient(black, gray);
+    );
+}
+
+footer h2{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: white
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+#footer-burger{
+    font-size: 45px;
 }
